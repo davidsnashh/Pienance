@@ -19,7 +19,7 @@
             responseElement.innerText = "Thinking...";
 
             // Call your AI backend (we'll set this up in Step 2)
-            const response = await fetch("https://your-backend-url/ask-finance-bot", {
+            const response = await fetch("https://davidsnashh.pythonanywhere.com/ask-finance-bot", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ question: question })
